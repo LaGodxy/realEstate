@@ -1,0 +1,8 @@
+POST http://localhost:3000/properties
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "description": "hfhfhfhfhfsnsnnsnsnnsnsns",
+    "area": 3445
+}

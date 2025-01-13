@@ -1,0 +1,7 @@
+POST http://localhost:3000/auth/refresh
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsImlhdCI6MTczNjE2NDAxNSwiZXhwIjoxNzM2NzY4ODE1fQ.Gjjgwd4iGkiD9jCrlm8z3RRJA0JrNyx64yM4rjYortY
+{
+    "email": "hfhf@gmail.com",
+    "password": "3445"
+}
+
