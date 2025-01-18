@@ -5,3 +5,10 @@ Content-Type: application/json
     "email": "hfhf@gmail.com",
     "password": "3445"
 }
+
+GET http://localhost:3000/users/profile/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsImlhdCI6MTczNjg1NzMzMCwiZXhwIjoxNzM2ODU3MzkwfQ.DfABUIGiG4JbAU-h6Sou_iYDIwHgBWfLnBjkM23vx-c
+{
+    "id": "3"
+}

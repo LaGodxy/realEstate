@@ -33,7 +33,15 @@ export class UsersService {
   findOne(id: number) {
     return this.UserRepo.findOne({
       where: { id },
-      select: ['firstName', 'lastName', 'avatarUrl', 'hashedRefreshToken'],
+      select: [
+        'id',
+        'firstName',
+        'lastName',
+        'avatarUrl',
+        'password',
+        'hashedRefreshToken',
+        'role',
+      ],
     });
   }
 
